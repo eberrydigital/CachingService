@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CachingService"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "Fetch, cache data easily using RxSwift"
 
   s.description  = <<-DESC
