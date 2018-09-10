@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CachingService"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "Fetch, cache data easily using RxSwift"
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.dependency 'RxOptional'
   s.dependency 'ReachabilitySwift'
   s.dependency 'SwiftyBeaver'
-  s.dependency 'Cache'
+  s.dependency 'Cache', '4.1.2'
   s.dependency 'Alamofire'
   s.dependency 'CodableAlamofire'
   s.ios.deployment_target = '10.0'
